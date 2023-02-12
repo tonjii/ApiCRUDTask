@@ -1,0 +1,81 @@
+﻿@model ContatoModel
+
+@{
+    ViewData["Title"] = "Editar Tarefas";
+}
+
+<div class="text-center">
+    <h3 class="mt-2">Editor de Tarefas</h3>
+    <form method="post" asp-controller="Contato" asp-action="Alterar">
+        <input type="hidden" asp-for="Id" />
+            <div class="form-row mt-3">
+                <div class="form-group col-md-6">
+                    <label for="nome">Nome</label>
+                    <input type="text" asp-for="Nome" class="form-control">
+                @Html.ValidationMessageFor(x => x.Nome)
+
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="Titulo">Título</label>
+                    <input type="text" asp-for="Titulo" class="form-control">
+                @Html.ValidationMessageFor(x => x.Titulo)
+
+                </div>
+                </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Data</label>
+                <input type="date" asp-for="Data" class="form-control">
+            @Html.ValidationMessageFor(x => x.Data)
+
+            </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputPassword4">Inicio</label>
+                        <input type="time" asp-for="Inicio" class="form-control">
+                @Html.ValidationMessageFor(x => x.Inicio)
+
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputPassword4">Fim</label>
+                        <input type="time"asp-for="Fim" class="form-control">
+                @Html.ValidationMessageFor(x => x.Fim)
+
+                    </div>
+                </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Descrição Da Atividade</label>
+            <textarea class="form-control" asp-for="Descricao" id=" exampleFormControlTextarea1" rows="3"></textarea>
+            @Html.ValidationMessageFor(x => x.Descricao)
+
+        </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="exampleFormControlSelect1">Prioridade</label>
+                <select class="form-control" asp-for="Prioridade">
+             @Html.ValidationMessageFor(x => x.Prioridade)
+
+                        <option>Alta</option>
+                        <option>Media</option>
+                        <option>Baixa</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="exampleFormControlSelect1">Finalizado</label>
+                <select class="form-control" asp-for="Finalizado">
+             @Html.ValidationMessageFor(x => x.Finalizado)
+
+                        <option>Sim</option>
+                        <option>Não </option>
+                    </select>
+                </div>
+            </div>
+        <button type="submit" class="btn btn-dark btn-block mt-3">Editar</button>
+        <a class="btn btn-secondary btn-block mt-3" asp-controller="Contato" asp-action="index" role="button">Voltar</a>
+        </form>
+    </div>
+
+
+
+
+
+
