@@ -30,6 +30,6 @@
   # Melhorias do Api CRUD Task 2.0
   
   - Acrescentar o Total de Horas por dia;
-  - Média de horas por dia ( Percentual das tarefas concluidas )
-  - Não permitir o cadastramento com datas vencidas ou sobrepostas 
-  - O tempo máximo for de 5 horas
+  - Média de horas por dia ( Percentual das tarefas concluidas );
+  - Não permitir o cadastramento com datas vencidas ou sobrepostas;
+  - O tempo máximo for de 5 horas.
