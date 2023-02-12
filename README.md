@@ -32,4 +32,4 @@
   - Acrescentar o Total de Horas por dia;
   - Média de horas por dia ( Percentual das tarefas concluidas );
   - Não permitir o cadastramento com datas vencidas ou sobrepostas;
-  - O tempo máximo for de 5 horas.
+  - O tempo máximo for de até 5 horas.
