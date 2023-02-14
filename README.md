@@ -20,7 +20,7 @@
   ![image](https://user-images.githubusercontent.com/104291113/218292976-abecffde-db18-4016-b8a8-a6588d5dec90.png)
   #
   
-  #### Sobre : Utilizado o SQl Server para o aramazenamento de informações e framework NET5 ( Asp.net MVC )
+  #### Sobre : Utilizado o SQl Server para o armazenamento de informações e framework NET5 ( Asp.net MVC )
   
   #
   ![image](https://user-images.githubusercontent.com/104291113/218294549-4407ed5f-73c3-4819-94f3-4b611bfc42e2.png) ![image](https://user-images.githubusercontent.com/104291113/218500834-146a662f-9703-4a5e-865b-81f05540e716.png)
